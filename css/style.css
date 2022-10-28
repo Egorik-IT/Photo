@@ -1,0 +1,289 @@
+/*Начало шапки!!!*/
+
+body{
+    font-family: "Montserrat";
+    font-size: 18px;
+    background: url(../img/fone.pngf);
+    background-attachment: fixed;
+}
+
+
+.super__container {
+    max-width: 1590px;
+    margin: 0px 160px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+.container__inner{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.container__logo {
+    
+    
+   
+    display: flex;
+    justify-content: start;
+    justify-content: start;
+    align-items: center;
+}
+.signature {
+    font-size: 15px;
+    line-height: 20px;
+    color: #3b3d40;
+}
+
+.header{
+    
+    background-color: #f1f1f1 ;
+}
+
+.logo__img {
+    max-width: 60px;
+    
+}
+.logo {
+    max-width: 80px;
+    margin: 0px 30px;
+    animation: infinite;
+    transition: 0.6s;
+}
+
+.pin__store{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.store,.meal,.news,.school{
+    margin: 0px 90px;
+    border-left: #b1b1b1 1px solid;
+    border-right: #b1b1b1 1px solid;
+    animation: infinite;
+    transition: 0.6s;
+    box-shadow: #d8d8d8 1px 0px 20px 1px;
+}
+
+.store:hover,.meal:hover,.news:hover,.school:hover{
+    background-color: #c4c4c4 ;
+}
+
+.store__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 30px;
+}
+
+
+
+.school__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 30px;
+}
+.meal__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 30px;
+    min-width: max-content;
+}
+.news__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 30px;
+}
+
+.menu{
+    display: none;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    border: #b1b1b1 1px solid;
+    padding-left: 90px;
+    padding-right: 90px;
+    animation: infinite;
+    transition: 0.6s;
+}
+
+.menu:hover{
+    background-color: #c4c4c4 ;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1700px){
+    .super__container{
+        margin: 0px 100px;
+    }
+    .store,.meal,.news,.school{
+        margin: 0px 50px;
+    }
+    }
+
+    @media (max-width: 1340px){
+        .store,.meal,.news,.school{
+            margin: 0px 20px;
+        }
+        }
+
+        @media (max-width: 1110px){
+            .super__container{
+                margin: 0px 100px;
+            }
+            .store,.meal,.news,.school{
+                margin: 0px 10px;
+            }
+            }
+
+            @media (max-width: 1000px){
+
+                .logo{
+                    max-width:70px ;
+                }
+                
+                .logo__img {
+                    max-width: 30px;
+                }
+                .signature {
+                    font-size: 12px;
+                    
+                }
+                }
+
+                @media (max-width: 900px){
+                    
+                    .logo__img {
+                        max-width: 28px;
+                    }
+                    .signature {
+                        font-size: 11px;
+                        
+                    }
+                    .logo{
+                        max-width: 56px;
+                    }
+
+                    .store__inner{
+                        
+                        margin: 10px 18px;
+                    }
+                    .school__inner {
+                        
+                        margin: 10px 18px;
+                    }
+                    .meal__inner {
+                        
+                        margin: 10px 18px;
+
+                    }
+                    .news__inner {
+                        
+                        margin: 10px 18px;
+                    }
+                    }
+
+                    @media (max-width: 780px){
+                        .super__container{
+                            margin: 0px 60px;
+                        }
+                    .pin__store{
+                        
+                        display: none;
+                    }
+                    .menu{
+                        display: flex;
+                    }
+                        }
+
+                        @media (max-width: 590px){
+                
+                            .super__container{
+                                margin: 0px 50px;
+                            }
+                            .menu{
+                                padding-left: 50px;
+                                padding-right: 50px
+                            }
+                                }
+
+                                @media (max-width: 495px){
+                
+                                    .super__container{
+                                        margin: 0px 40px;
+                                    }
+                                    .menu{
+                                        padding-left: 20px;
+                                        padding-right: 20px
+                                    }
+                                        }
+
+                                        @media (max-width: 436px){
+                                            .super__container{
+                                                margin: 0px 20px;
+                                            }
+                                            .logo{
+                                                max-width: 50px;
+                                            }
+                                            .menu{
+                                                font-size: 15px;
+                                                
+                                                padding-left: 10px;
+                                                padding-right: 10px
+                                            }
+                                                }
+
+    /*Конец шапки!!!*/                                           
+
+
+    .intro__main__content {
+    }
+    .intro {
+    }
+    .container__intro {
+    }
+    .text__name__d-flex {
+    }
+    .text__name {
+    }
+    .main__content {
+    }
+    .main__content__container {
+    }
+    .html {
+    }
+    .my__name {
+    }
+    .about__content {
+    }
+    .about__title {
+    }
+    .about__description {
+    }
