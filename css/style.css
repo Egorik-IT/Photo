@@ -188,7 +188,11 @@ body{
     display: none;
 }
 
-
+.grid__lang__girls{
+    padding: 10px;
+    text-align: center;
+    border: #b1b1b1 2px dashed;
+}
 
 .grid__item div{
     font-size: 20px;
@@ -280,6 +284,9 @@ body{
         }
         .grid__lang__vika__vertically{
             display: grid;
+        }
+        .grid__lang__girls{
+            grid-column: span 3;
         }
         /*Конец grid!!!*/
     }
@@ -401,6 +408,9 @@ body{
                     /*Начало grid!!!*/
                     .grid__body {
                         grid-template-columns:1fr;
+                    }
+                        .grid__lang__girls{
+                        grid-column: span 1;
                     }
                     /*Конец grid!!!*/
                         }
