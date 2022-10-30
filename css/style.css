@@ -631,7 +631,6 @@ body{
 .grid__lang__photo__girls{
     border-radius: 12%;
     border: pink 2px dashed;
-    grid-column: span 3;
 }
 
 .grid__lang__photo__egor__veselov{
