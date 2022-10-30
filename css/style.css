@@ -420,6 +420,9 @@ body{
                     .grid__lang__common{
                         grid-column: span 1;
                     }
+                        .grid__lang__egor{
+                        grid-column: span 1;
+                    }
                     /*Конец grid!!!*/
                         }
 
@@ -623,7 +626,7 @@ body{
 
 @media (max-width:900px) {    
     .grid__body__katy {
-        grid-template-columns: 0.5fr 0.5fr ;
+        grid-template-columns: 1fr ;
     }    
     .container__logo__katy {
         font-size: 24px;
