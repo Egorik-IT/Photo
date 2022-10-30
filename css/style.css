@@ -171,9 +171,6 @@ body{
 
 
 .grid__item {
-    font-size: 20px;
-    font-weight: 600;
-    color: #000;
     grid-auto-flow: column;
 }
 
@@ -184,9 +181,11 @@ body{
     grid-column: span 3;
 }
 
-.grid__item span{
-    padding: 18px;
-    font-weight: 500;
+.grid__item div{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    padding: 12px;
 }
 .grid__lang{
     padding: 10px;
