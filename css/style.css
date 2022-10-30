@@ -174,12 +174,21 @@ body{
     grid-auto-flow: column;
 }
 
-.grid__lang__vika {
+.grid__lang__vika__horizontally{
     padding: 10px;
     text-align: center;
     border: #b1b1b1 2px dashed;
     grid-column: span 3;
 }
+
+.grid__lang__vika__vertically{
+    padding: 10px;
+    text-align: center;
+    border: #b1b1b1 2px dashed;
+    display: none;
+}
+
+
 
 .grid__item div{
     font-size: 20px;
@@ -266,7 +275,12 @@ body{
         .grid__body {
             grid-template-columns:1fr 1fr;
         }
-
+        .grid__lang__vika__horizontally{
+            display: none;
+        }
+        .grid__lang__vika__vertically{
+            display: grid;
+        }
         /*Конец grid!!!*/
     }
     @media (max-width: 1550px){
@@ -410,9 +424,7 @@ body{
                                 padding: 20px;
                                 border-radius: 60%;
                             }
-                            .girls{
-                               
-                            }
+                            
                             /*Конец grid!!!*/
                                 }
 
@@ -534,6 +546,4 @@ body{
 
 /*--Конец--Светящегося--текста---не--я--его--сделал-- :( */
 
-.rrr{
-    max-width: 200px;
-}
+/*--Конец--всего--*/
