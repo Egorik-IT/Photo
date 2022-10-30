@@ -209,7 +209,9 @@ body{
     padding: 12px;
 }
 .katy,.karina,.dasha__bellman,.arina,.vika,.any,.dasha__petrova,
-.nastya__levina,.nastya__smirnova{
+.nastya__levina,.nastya__smirnova,.lera ,.matvey__smirnov ,.igor, .alexander,
+.maksim ,.danya ,.grisha ,.arseniy ,.egor__appolinarov ,.egor__veselov ,
+.kirill ,.egor__terebov{
     max-width: 100%;
     margin: 0 auto;
 }
@@ -244,6 +246,8 @@ body{
     color: #337AB7;
     background: #42ff9e ;
 }
+
+
 
 
 
@@ -567,85 +571,183 @@ body{
 
 /*--Конец всего--*/
 
+.class{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 10px;
+}
 
-
-.header__katy {
+.header__photo {
     border-radius: 50px;
     background-color: pink;
     margin-bottom: 15px;
 }
-.container__katy {
+.container__photo {
     text-align: end;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 20px;
 }
-.container__logo__katy {
+.container__logo__photo {
     padding:30px ;
     font-size: 30px;
     
 }
-.container__intro__katy {
+
+.container__intro__photo {
     text-align: center;
 }
 
-.container__inner__katy{
+.container__inner__photo{
     
     font-size: 30px;
     border-bottom: 2px pink solid;
 }
 
-.grid__katy {
+.grid__lang__photo__alexander{
+    grid-column: span 3;
+}
+.grid__lang__photo__appolinarov{
+    border-radius: 12%;
+    border: pink 2px dashed;
+    grid-column: span 3;
+}
+.grid__lang__photo__arina{
+    border-radius: 12%;
+    border: pink 2px dashed;
+    grid-column: span 3;
+}
+.grid__lang__photo__girls{
+    border-radius: 12%;
+    border: pink 2px dashed;
+    grid-column: span 3;
+}
+
+.grid__lang__photo__egor__veselov{
+    border-radius: 12%;
+    border: pink 2px dashed;
+    grid-column: span 3;
+}
+.grid__lang__photo__igor{
+    border-radius: 12%;
+    border: pink 2px dashed;
+    grid-column: span 3;
+}
+.grid__lang__photo__maksim{
+    border-radius: 12%;
+    border: pink 2px dashed;
+    grid-column: span 3;
+}
+.grid__lang__photo__vika{ 
+    border-radius: 12%;
+    border: pink 2px dashed;
+    grid-column: span 3;
+}
+
+.grid__photo {
     border-radius: 30px;
     border: pink 2px dashed;
 }
-.grid__body__katy {
+.grid__body__photo {
     
     grid-gap: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
 }
-.grid__lang__katy {
+.grid__lang__photo {
     border-radius: 12%;
     border: pink 2px dashed;
 }
-.grid__item__katy {
+.grid__lang__photo__alexander{
+    border-radius: 12%;
+    border: pink 2px dashed;
+}
+
+
+.grid__item__photo {
     border-radius: 12%;
     padding: 10px;
     max-width: 100%;
 }
 
+
 @media (max-width:1400px) {    
-    .grid__body__katy {
+    .grid__body__photo {
         grid-template-columns: 1fr 1fr;
     }    
+    .grid__lang__photo__alexander{
+        grid-column: span 2;
+    }
+    .grid__lang__photo__appolinarov{
+        grid-column: span 2;
+    }
+    .grid__lang__photo__arina{
+        grid-column: span 2;
+    }
+    .grid__lang__photo__girls{
+        grid-column: span 2;
+    }
+    .grid__lang__photo__egor__veselov{
+        grid-column: span 2;
+    }
+    .grid__lang__photo__igor{
+        grid-column: span 2;
+    }
+    .grid__lang__photo__maksim{
+        grid-column: span 2;
+    }
+    .grid__lang__photo__vika{ 
+        grid-column: span 1;
+    }
 }
 
 @media (max-width:900px) {    
-    .grid__body__katy {
+    .grid__body__photo {
         grid-template-columns: 1fr ;
-    }    
-    .container__logo__katy {
+    }  
+    .container__logo__photo {
         font-size: 24px;
         
+    }
+    .grid__lang__photo__alexander{
+        grid-column: span 1;
+    }
+    .grid__lang__photo__appolinarov{
+        grid-column: span 1;
+    }
+    .grid__lang__photo__arina{
+        grid-column: span 1;
+    }
+    .grid__lang__photo__girls{
+        grid-column: span 1;
+    }
+    .grid__lang__photo__egor__veselov{
+        grid-column: span 1;
+    }
+    .grid__lang__photo__igor{
+        grid-column: span 1;
+    }
+    .grid__lang__photo__maksim{
+        grid-column: span 1;
     }
 }
 
 @media (max-width:630px) {        
-    .container__logo__katy {
+    .container__logo__photo {
         font-size: 18px;
     }
-    .container__inner__katy{
+    .container__inner__photo{
         font-size: 20px;
     }
 }
 
 @media (max-width:630px) {        
-    .container__logo__katy {
+    .container__logo__photo {
         font-size: 15px;
     }
-    .container__inner__katy{
+    .container__inner__photo{
         font-size: 17px;
     }
 }
