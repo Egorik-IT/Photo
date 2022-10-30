@@ -188,7 +188,7 @@ body{
     display: none;
 }
 
-.grid__lang__girls{
+.grid__lang__common{
     padding: 10px;
     text-align: center;
     border: #b1b1b1 2px dashed;
@@ -285,7 +285,7 @@ body{
         .grid__lang__vika__vertically{
             display: grid;
         }
-        .grid__lang__girls{
+        .grid__lang__common{
             grid-column: span 3;
         }
         /*Конец grid!!!*/
@@ -395,7 +395,6 @@ body{
                             margin: 0px 60px;
                         }
                     .pin__store{
-                        
                         display: none;
                     }
                     .menu{
@@ -409,7 +408,7 @@ body{
                     .grid__body {
                         grid-template-columns:1fr;
                     }
-                        .grid__lang__girls{
+                        .grid__lang__common{
                         grid-column: span 1;
                     }
                     /*Конец grid!!!*/
