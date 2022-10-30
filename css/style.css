@@ -226,9 +226,6 @@ body{
     text-align: center;
     margin: 15px auto 15px auto;
     font-size: 70px;
-    max-width: max-content;
-    padding: 25px;
-    border-radius: 60%;
     color: #000;
     font-weight: 600;
 }
