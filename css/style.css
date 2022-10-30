@@ -565,3 +565,86 @@ body{
 /*--Конец--Светящегося--текста---не--я--его--сделал-- :( */
 
 /*--Конец всего--*/
+
+
+
+.header__katy {
+    border-radius: 50px;
+    background-color: pink;
+    margin-bottom: 15px;
+}
+.container__katy {
+    text-align: end;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+.container__logo__katy {
+    padding:30px ;
+    font-size: 30px;
+    
+}
+.container__intro__katy {
+    text-align: center;
+}
+
+.container__inner__katy{
+    
+    font-size: 30px;
+    border-bottom: 2px pink solid;
+}
+
+.grid__katy {
+    border-radius: 30px;
+    border: pink 2px dashed;
+}
+.grid__body__katy {
+    
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+.grid__lang__katy {
+    border-radius: 12%;
+    border: pink 2px dashed;
+}
+.grid__item__katy {
+    border-radius: 12%;
+    padding: 10px;
+    max-width: 100%;
+}
+
+@media (max-width:1400px) {    
+    .grid__body__katy {
+        grid-template-columns: 1fr 1fr;
+    }    
+}
+
+@media (max-width:900px) {    
+    .grid__body__katy {
+        grid-template-columns: 0.5fr 0.5fr ;
+    }    
+    .container__logo__katy {
+        font-size: 24px;
+        
+    }
+}
+
+@media (max-width:630px) {        
+    .container__logo__katy {
+        font-size: 18px;
+    }
+    .container__inner__katy{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:630px) {        
+    .container__logo__katy {
+        font-size: 15px;
+    }
+    .container__inner__katy{
+        font-size: 17px;
+    }
+}
