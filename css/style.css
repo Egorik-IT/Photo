@@ -176,6 +176,14 @@ body{
     color: #000;
     grid-auto-flow: column;
 }
+
+.grid__lang__vika {
+    padding: 10px;
+    text-align: center;
+    border: #b1b1b1 2px dashed;
+    grid-column: span 3;
+}
+
 .grid__item span{
     padding: 18px;
     font-weight: 500;
