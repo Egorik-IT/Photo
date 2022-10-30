@@ -578,9 +578,19 @@ body{
     padding-top: 10px;
 }
 
-.header__photo {
+.header__photo__girls{
     border-radius: 50px;
     background-color: pink;
+    margin-bottom: 15px;
+}
+.header__photo__boys{
+    border-radius: 50px;
+    background-color:  rgb(150, 152, 255) ;
+    margin-bottom: 15px;
+}
+.header__photo__common{
+    border-radius: 50px;
+    background-color: rgb(255, 206, 100);
     margin-bottom: 15px;
 }
 .container__photo {
@@ -610,7 +620,7 @@ body{
 }
 .grid__lang__photo__appolinarov{
     border-radius: 12%;
-    border: pink 2px dashed;
+    border: rgb(150, 152, 255) 2px dashed;
     grid-column: span 3;
 }
 .grid__lang__photo__arina{
@@ -626,17 +636,17 @@ body{
 
 .grid__lang__photo__egor__veselov{
     border-radius: 12%;
-    border: pink 2px dashed;
+    border: rgb(150, 152, 255) 2px dashed;
     grid-column: span 3;
 }
 .grid__lang__photo__igor{
     border-radius: 12%;
-    border: pink 2px dashed;
+    border: rgb(150, 152, 255) 2px dashed;
     grid-column: span 3;
 }
 .grid__lang__photo__maksim{
     border-radius: 12%;
-    border: pink 2px dashed;
+    border: rgb(150, 152, 255) 2px dashed;
     grid-column: span 3;
 }
 .grid__lang__photo__vika{ 
@@ -645,9 +655,17 @@ body{
     grid-column: span 3;
 }
 
-.grid__photo {
+.grid__photo__girls{
     border-radius: 30px;
     border: pink 2px dashed;
+}
+.grid__photo__boys{
+    border-radius: 30px;
+    border: rgb(150, 152, 255) 2px dashed;
+}
+.grid__photo__common{
+    border-radius: 30px;
+    border: rgb(255, 206, 100)2px dashed;
 }
 .grid__body__photo {
     
@@ -656,13 +674,21 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
 }
-.grid__lang__photo {
+.grid__lang__photo__girls {
     border-radius: 12%;
     border: pink 2px dashed;
 }
+.grid__lang__photo__boys {
+    border-radius: 12%;
+    border: rgb(150, 152, 255) 2px dashed;
+}
+.grid__lang__photo__common {
+    border-radius: 12%;
+    border: rgb(255, 206, 100)2px dashed;
+}
 .grid__lang__photo__alexander{
     border-radius: 12%;
-    border: pink 2px dashed;
+    border: rgb(150, 152, 255) 2px dashed;
 }
 
 
