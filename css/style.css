@@ -229,23 +229,12 @@ body{
     max-width: max-content;
     padding: 25px;
     border-radius: 60%;
+    color: #000;
 }
 
-.general {
-    color: green;
-    background: #edff21 ;
-}
 
-.girls {
-    color: pink;
-    background:#BFE2FF ;
-    padding: 35px;
-}
 
-.boys {
-    color: #337AB7;
-    background: #42ff9e ;
-}
+
 
 
 
