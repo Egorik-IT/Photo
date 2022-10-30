@@ -148,8 +148,7 @@ body{
                                           
 
    
-    .intro__main__content {
-}
+
 .intro {
     margin-bottom: 40px;
 }
@@ -395,6 +394,7 @@ body{
                             margin: 0px 60px;
                         }
                     .pin__store{
+                        
                         display: none;
                     }
                     .menu{
@@ -408,7 +408,7 @@ body{
                     .grid__body {
                         grid-template-columns:1fr;
                     }
-                        .grid__lang__common{
+                    .grid__lang__common{
                         grid-column: span 1;
                     }
                     /*Конец grid!!!*/
@@ -555,4 +555,4 @@ body{
 
 /*--Конец--Светящегося--текста---не--я--его--сделал-- :( */
 
-/*--Конец--всего--*/
+/*--Конец всего--*/
