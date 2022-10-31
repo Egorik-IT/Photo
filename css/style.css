@@ -283,7 +283,20 @@ body{
 
 
  /*Начало media!!!*/ 
+@media (max-height:480px){
+    /*Начало grid!!!*/
+    .stores,.meals,.newss,.schools{
+        font-size: 36px;
+    }
 
+    .close{
+        font-size: 40px;
+    }
+    .signatures{
+        margin: 10px 0px;
+    }
+    /*Конец grid!!!*/
+    }
 
 
  @media (max-height:1080px){
