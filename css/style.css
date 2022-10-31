@@ -316,6 +316,19 @@ body{
 
 
 
+
+@media (max-width: 1700px){
+    /*Начало шапки!!!*/
+    .super__container{
+        margin: 0px 100px;
+    }
+    .store,.meal,.news,.school{
+        margin: 0px 50px;
+    }
+    /*Конец шапки!!!*/ 
+        
+}
+
     @media (max-width: 1572px){
         /*Начало grid!!!*/
         .grid__item span{
