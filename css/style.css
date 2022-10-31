@@ -314,26 +314,7 @@ body{
     /*Конец grid!!!*/
 }
 
-@media (max-height:610px){
-    /*Начало grid!!!*/
-    .stores,.meals,.newss,.schools{
-        font-size: 22px;
-    }
 
-    .close{
-        font-size: 40px;
-    }
-    .signatures{
-        margin: 20px 0px;
-    }
-    /*Конец grid!!!*/
-}
-
-    
-    
-    
-    /*Конец grid!!!*/
-    }
 
     @media (max-width: 1572px){
         /*Начало grid!!!*/
