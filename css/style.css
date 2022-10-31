@@ -271,6 +271,7 @@ body{
     right: 0;
     width: 100%;
     height: 100%;
+    z-index: 100;
     background-color: #f1f1f1;
     transition: 0.4s;
     flex-direction: column;
@@ -283,20 +284,52 @@ body{
  /*Начало media!!!*/ 
 
 
- @media (max-width: 1700px){
-    /*Начало шапки!!!*/
-    .super__container{
-        margin: 0px 100px;
-    }
-    .store,.meal,.news,.school{
-        margin: 0px 50px;
-    }
-    /*Конец шапки!!!*/ 
-        
-        
+
+ @media (max-height:1080px){
     /*Начало grid!!!*/
-    
-    
+    .stores,.meals,.newss,.schools{
+        font-size: 40px;
+    }
+
+    .close{
+        font-size: 60px;
+    }
+    .signatures{
+        margin: 60px 0px;
+    }
+    /*Конец grid!!!*/
+}
+
+@media (max-height:870px){
+    /*Начало grid!!!*/
+    .stores,.meals,.newss,.schools{
+        font-size: 30px;
+    }
+
+    .close{
+        font-size: 50px;
+    }
+    .signatures{
+        margin: 40px 0px;
+    }
+    /*Конец grid!!!*/
+}
+
+@media (max-height:610px){
+    /*Начало grid!!!*/
+    .stores,.meals,.newss,.schools{
+        font-size: 22px;
+    }
+
+    .close{
+        font-size: 40px;
+    }
+    .signatures{
+        margin: 20px 0px;
+    }
+    /*Конец grid!!!*/
+}
+
     
     
     
