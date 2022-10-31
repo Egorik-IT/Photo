@@ -724,7 +724,7 @@ body{
 }
 @media (max-width:780px) {    
     .grid__body__photo {
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
     }  
     .container__logo__photo {
         font-size: 24px;
