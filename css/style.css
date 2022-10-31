@@ -261,6 +261,7 @@ body{
     opacity: 0.6;
     font-size: 50px;
     color: #000;
+    margin-right: 10px;
 }
 .stores:hover,.meals:hover,.newss:hover,.schools:hover{
     opacity: 1;
