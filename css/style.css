@@ -153,7 +153,6 @@ body{
 
 .grid {
     border: #b1b1b1 2px dashed;
-
 }
 
 .grid__body {
@@ -474,7 +473,6 @@ body{
                                             }
                                             .menu{
                                                 font-size: 15px;
-                                                
                                                 padding-left: 10px;
                                                 padding-right: 10px
                                             }
@@ -523,7 +521,7 @@ body{
     font-family: Verdana, sans-serif;
     font-weight: 900;
     position: relative;
-    background: white;
+    background: rgb(255, 255, 255);
     overflow: hidden;
     text-transform: uppercase;
     text-align: center;
@@ -692,6 +690,37 @@ body{
     max-width: 100%;
 }
 
+.scroll__button {
+    position: fixed;
+    right: 38px;
+    bottom: 40px;
+    background-color: #FFF;
+}
+.scroll__arrow{
+ max-width: 80px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1700px) {    
+    .container__logo__photo {
+        font-size: 24px;
+    }
+    .scroll__arrow{
+        max-width: 60px;
+       }
+       .scroll__button {
+        position: fixed;
+        right: 20px;
+        bottom: 40px;
+    }
+}
 
 @media (max-width:1400px) {    
     .grid__body__photo {
@@ -727,7 +756,20 @@ body{
     }
     
 }
-@media (max-width:780px) {    
+@media (max-width:780px) { 
+    
+    .container__logo__photo {
+        font-size: 24px;
+    }
+    .scroll__arrow{
+        max-width: 40px;
+       }
+       .scroll__button {
+        position: fixed;
+        right: 10px;
+        bottom: 40px;
+    }
+
     .grid__body__photo {
         grid-template-columns: 1fr ;
     }  
@@ -769,5 +811,45 @@ body{
     }
     .container__inner__photo{
         font-size: 17px;
+    }
+}
+
+@media (max-width: 590px){
+    
+    
+    
+    .scroll__arrow{
+        max-width: 38px;
+       }
+       .scroll__button {
+        right: 5px;
+        bottom: 38px;
+    }
+}
+@media (max-width: 495px){
+    .scroll__arrow{
+        max-width: 31px;
+       }
+       .scroll__button {
+        right: 5px;
+        bottom: 25px;
+    }
+    }
+    @media (max-width: 436px){
+        .super__container{
+            margin: 0px 35px;
+        }
+        }
+
+@media (max-width: 390px){
+    .general,.girls,.boys{
+        font-size: 30px;
+        padding: 20px;
+    }
+    .scroll__arrow{
+        max-width: 30px;
+       }
+       .scroll__button {
+        bottom: 20px;
     }
 }
