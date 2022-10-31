@@ -414,7 +414,7 @@ body{
                 /*Конец шапки!!!*/
                 }
 
-                @media (max-width: 900px){
+                @media (max-width: 930px){
                     /*Начало шапки!!!*/
                     
                     .logo__img {
@@ -452,7 +452,7 @@ body{
                     /*Конец шапки!!!*/
                     }
 
-                    @media (max-width: 800px){
+                    @media (max-width: 790px){
                         /*Начало шапки!!!*/
                         .container{
                             justify-content: space-between;
