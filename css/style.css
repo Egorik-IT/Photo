@@ -40,8 +40,8 @@ body{
 }
 
 .header{
-    margin-bottom: 12px;
     background-color: #f1f1f1 ;
+    margin-bottom: 14px;
 }
 
 .logo__img {
@@ -226,13 +226,21 @@ body{
     text-align: center;
     margin: 15px auto 15px auto;
     font-size: 70px;
-    color: #000;
     font-weight: 600;
 }
 
+.general {
+    color: #000;
+}
 
+.girls {
+    color: #000;
+    padding: 35px;
+}
 
-
+.boys {
+    color: #000;
+}
 
 
 
@@ -431,7 +439,7 @@ body{
                             .general,.girls,.boys{
                                 font-size: 50px;
                                 max-width: max-content;
-                                padding: 20px;
+                                padding: 26px;
                                 border-radius: 60%;
                             }
                             
@@ -724,7 +732,7 @@ body{
 }
 @media (max-width:780px) {    
     .grid__body__photo {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
     }  
     .container__logo__photo {
         font-size: 24px;
@@ -752,7 +760,6 @@ body{
         grid-column: span 1;
     }
 }
-
 @media (max-width:630px) {        
     .container__logo__photo {
         font-size: 18px;
