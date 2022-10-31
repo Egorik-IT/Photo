@@ -452,7 +452,7 @@ body{
                     /*Конец шапки!!!*/
                     }
 
-                    @media (max-width: 790px){
+                    @media (max-width: 800px){
                         /*Начало шапки!!!*/
                         .container{
                             justify-content: space-between;
