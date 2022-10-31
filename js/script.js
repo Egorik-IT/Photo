@@ -11,22 +11,12 @@ button.onclick = function setScrollToOptions() {
     console.log("Прокрутка получилась!");
 }
 
+function nunu(){
+    document.querySelector(".scroll__spisok").style.display = "flex"
+    document.querySelector(".osnova").style.overflow = "hidden";
+}   
 
-
-
-
-        
-
-    const menu = document.querySelector("#menu");
-    const nav = document.querySelector("#nav");
-    const body = document.body;
-    menu.addEventListener("click", hanbHandler);
-
-
-   function hanbHandler(event) {
-   event.preventDefault();
-   nav.classList.toggle("open"); 
-   body.classList.toggle("noscroll");
-   console.log("open") 
-
+function closew(){
+    document.querySelector(".scroll__spisok").style.display = "none"
+    document.querySelector(".osnova").style.overflow = "scroll";
 }
