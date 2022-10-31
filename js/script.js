@@ -15,8 +15,18 @@ button.onclick = function setScrollToOptions() {
 
 
 
-const windowScrollTop = window.pageYOffset;
-const windowScrollLeft = window.pageXOffset;
+        
 
-console.log(windowScrollTop);
-console.log(windowScrollLeft);
+    const menu = document.querySelector("#menu");
+    const nav = document.querySelector("#nav");
+    const body = document.body;
+    menu.addEventListener("click", hanbHandler);
+
+
+   function hanbHandler(event) {
+   event.preventDefault();
+   nav.classList.toggle("open"); 
+   body.classList.toggle("noscroll");
+   console.log("open") 
+
+}
