@@ -244,9 +244,67 @@ body{
 
 
 
+.close{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.close:hover{
+    cursor:pointer;
+}
+
+.signatures{
+    margin: 80px 0px;
+}
+.stores,.meals,.newss,.schools{
+    animation: infinite;
+    transition: 0.6s;
+    opacity: 0.6;
+    font-size: 50px;
+    color: #000;
+}
+.stores:hover,.meals:hover,.newss:hover,.schools:hover{
+    opacity: 1;
+}
+.nav{
+    position: fixed;
+    right: 60px;
+    right: -100%;
+    width: 82.3%;
+    height: 100%;
+    background-color: #f1f1f1;
+    z-index: 100;
+    display: flex;
+    transition: 0.4s;
+    flex-direction: column;
+    align-items:end;
+}
+
+.nav.open{
+    top: 72px;
+    right: 0;
+}
+
+.nav.delite{
+    right: -100%;
+}
+
+body.noscroll{
+    overflow: hidden;
+}
+
 
  /*Начало media!!!*/ 
-
+ @media (max-width: 4700px){
+    /*Начало шапки!!!*/
+    
+    .nav{
+        display: none;
+    }
+    
+    
+    
+    /*Конец grid!!!*/
+    }
 
  @media (max-width: 1700px){
     /*Начало шапки!!!*/
@@ -260,6 +318,11 @@ body{
         
         
     /*Начало grid!!!*/
+    
+    
+    .nav{
+        display: none;
+    }
     
     
     
@@ -292,11 +355,6 @@ body{
         .grid__lang__egor{
             grid-column: span 2;
         }
-        /*Конец grid!!!*/
-    }
-    @media (max-width: 1550px){
-        /*Начало grid!!!*/
-        
         /*Конец grid!!!*/
     }
 
@@ -379,6 +437,7 @@ body{
                         
                         margin: 10px 18px;
                     }
+                    
                     /*Конец шапки!!!*/ 
 
                     /*Начало шапки!!!*/
@@ -402,11 +461,17 @@ body{
                         
                         display: none;
                     }
+                    body.noscroll{
+                        overflow: scroll;
+                    }
+                    .nav{
+                        display: flex;
+                    }
                     .menu{
-                        
                         display: flex;
                         justify-content: end;
                     }
+
                     /*Конец шапки!!!*/ 
 
                     /*Начало grid!!!*/
@@ -699,6 +764,23 @@ body{
 .scroll__arrow{
  max-width: 80px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
