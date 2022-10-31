@@ -706,9 +706,6 @@ body{
     .grid__lang__photo__arina{
         grid-column: span 2;
     }
-    .grid__lang__photo__girls{
-        grid-column: span 2;
-    }
     .grid__lang__photo__egor__veselov{
         grid-column: span 2;
     }
@@ -745,9 +742,6 @@ body{
         grid-column: span 1;
     }
     .grid__lang__photo__arina{
-        grid-column: span 1;
-    }
-    .grid__lang__photo__girls{
         grid-column: span 1;
     }
     .grid__lang__photo__egor__veselov{
