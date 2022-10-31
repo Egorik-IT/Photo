@@ -15,9 +15,9 @@
     <!-- CSS only -->
     <title>Document</title>
 </head>
-<body>
+<body class="osnova">
     
-    <div class="super__container">
+    <div id="super__container" class="super__container">
     <header class="header">
         <div class="container">
             <a href="https://egorik-it.github.io/Photo/index.html"><div class="container__logo">
@@ -28,21 +28,21 @@
         
 
             <nav class="pin__store">
-            <a href="" class="store">
+            <a href="https://yandex.ru/maps/?ll=38.509263%2C59.207569&mode=poi&poi%5Bpoint%5D=38.505602%2C59.206864&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D51418414648&z=17" target="_blank" class="store">
                 <div class="store__inner">
                 <img class="logo__img" src="./img/Pins/store.png" alt="">
                 <span class="signature"> Магазины </span>
                 </div>
             </a>
             
-                <a href="" class="school">
+                <a href="https://yandex.ru/maps/org/mou_ustye_ugolskaya_shkola/140901271270/?ll=38.512052%2C59.207476&z=17" target="_blank" class="school">
                     <div class="school__inner">
                     <img class="logo__img" src="./img/Pins/school.png" alt="">
                     <span class="signature"> Школа </span>
                     </div>
-                    </a>
+                </a>
 
-                    <a href="" class="meal">
+                    <a href="https://yandex.ru/maps/?ll=38.515807%2C59.207399&mode=poi&poi%5Bpoint%5D=38.513480%2C59.207653&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D142317104377&z=17" target="_blank" class="meal">
                         <div class="meal__inner">
                         <img class="logo__img" src="./img/Pins/meal.png" alt="">
                         <span class="signature"> Где поесть </span>
@@ -56,13 +56,34 @@
                             </div>
                             </a>
                             </nav>
-                            <a class="menu" href="">
-                            <div class="menu__inner">Меню</div>
-                            </a>
+
+
+                            <button onclick="nunu()" id="menu" class="menu">Меню</button>
+                            
+                                <nav id="nav" class="scroll__spisok">
+                                    <div class="close" onclick="closew()">
+                                        ✕
+                                        </div>
+                                    <div id="signatures" class="signatures">
+                                        <a href="https://yandex.ru/maps/?ll=38.509263%2C59.207569&mode=poi&poi%5Bpoint%5D=38.505602%2C59.206864&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D51418414648&z=17" target="_blank" class="stores"> Магазины</a> 
+                                       </div>
+                                    <div id="signatures" class="signatures">
+                                        <a href="https://yandex.ru/maps/org/mou_ustye_ugolskaya_shkola/140901271270/?ll=38.512052%2C59.207476&z=17" target="_blank" class="schools"> Школа</a> 
+                                       </div>
+                                    <div id="signatures" class="signatures">
+                                        <a href="https://yandex.ru/maps/?ll=38.515807%2C59.207399&mode=poi&poi%5Bpoint%5D=38.513480%2C59.207653&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D142317104377&z=17" target="_blank" class="meals"> Где поесть</a> 
+                                       </div>
+                                    <div id="signatures" class="signatures">
+                                        <a href="https://vk.com/u_ugolskaya_school" target="_blank"
+                                          class="newss"> Новости</a> 
+                                        </div>
+                                </nav>
                         </div>
                      </div>       
     </header>
+
     <div class="scroll">  <button class="scroll__button">  <img class="scroll__arrow" src="./img/Pins/arrow.png" alt="">  </button>  </div>
+
 <div class="intro__main__content">
 
     <div class="intro">
@@ -75,7 +96,7 @@
     <div class="general">Общие</div>
     <div class="grid">
         <div class="grid__body">
-            <a class="grid__lang__common" href="https://egorik-it.github.io/Photo/common.html"><div class="grid__item"> <img class="common" src="./img/common/common (2).jpg" alt=""><div> Фото всего класса</div></div> </a>
+            <a class="grid__lang__common" href="https://egorik-it.github.io/Photocommon.html"><div class="grid__item"> <img class="common" src="./img/common/common (2).jpg" alt=""><div> Фото всего класса</div></div> </a>
             <a class="grid__lang" href="https://egorik-it.github.io/Photo/common__boys.html"><div class="grid__item"> <img class="common__boys" src="./img/common__boys/common__boys (5).jpg" alt="" ><div> Групповое фото мальчиков</div></div> </a>
             <a class="grid__lang" href="https://egorik-it.github.io/Photo/common__girls.html"><div class="grid__item"> <img class="common__girls" src="./img/common__girls/common__girls (10).jpg" alt="" ><div>Групповое фото девочек</div></div> </a>
         </div>
@@ -85,10 +106,9 @@
     <div class="girls">Девочки</div>
     <div class="grid">
         <div class="grid__body">
-            
             <a class="grid__lang" href="https://egorik-it.github.io/Photo/katy.html"><div class="grid__item"> <img class="katy" src="./img/Katy/Katy (7).jpg" alt=""><div>Фотографии Екатирины Хламовой</div></div> </a>
             <a class="grid__lang" href="https://egorik-it.github.io/Photo/karina.html"><div class="grid__item"> <img class="karina" src="./img/Karina/Karina (2).jpg" alt="" ><div>Фотографии Карины Бусыгиной</div></div> </a>
-            <a class="grid__lang" href="https://egorik-it.github.io/Photo/dasha__belman.html"><div class="grid__item"> <img class="dasha__bellman" src="./img/Dasha Bellman/Dasha Bellman (3).jpg" alt="" ><div>Фотографии Дарьи Бельман</div></div> </a>
+            <a class="grid__lang" href="https://egorik-it.github.io/Photo/dasha__bellman.html"><div class="grid__item"> <img class="dasha__bellman" src="./img/Dasha Bellman/Dasha Bellman (3).jpg" alt="" ><div>Фотографии Дарьи Бельман</div></div> </a>
             <a class="grid__lang" href="https://egorik-it.github.io/Photo/arina.html"><div class="grid__item"> <img class="arina" src="./img/Arina/Arina (2).jpg" alt="" ><div>Фотографии Арины Харичевой</div></div> </a>
             <a class="grid__lang" href="https://egorik-it.github.io/Photo/nastya__smirnova.html"><div class="grid__item"> <img class="nastya__smirnova" src="./img/Nastya Smirnova/Nastya (3).jpg" alt="" ><div>Фотографии Насти Смирновой</div></div> </a>
             <a class="grid__lang" href="https://egorik-it.github.io/Photo/lera.html"><div class="grid__item"> <img class="lera" src="./img/Lera/Lera (2).jpg  " alt="" ><div>Фотографии Валерии Малышевой</div></div> </a>
@@ -117,8 +137,9 @@
             <a class="grid__lang__egor" href="https://egorik-it.github.io/Photo/egor__terebov.html"><div class="grid__item"> <img class="egor__terebov" src="./img/Egor Terebov/Egor Terebov (2).jpg  " alt="" ><div>Фотографии Егора Теребова</div></div> </a>
         </div>
     </div>
-    
+
 </div>
+
 </div>
 
 <!-- JavaScript Bundle with Popper -->
