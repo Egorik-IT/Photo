@@ -282,8 +282,333 @@ body{
 
 
 
+.footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #f1f1f1;
+    background: #0a0a0a;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
- /*Начало media!!!*/ 
+.footer__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.nav__footer{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.contact__footer{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    line-height: 40px;
+}
+
+.contact,.navigation,.telefon{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.store__footer,.meal__footer,.news__footer,.school__footer{
+    color: #f1f1f1;
+}
+
+.telefon__footer{
+    line-height: 29px;
+}
+
+.adres,.opperating__mode,.school__telefon,.school__natwork{
+ font-size: 14px;
+ color: #494949;
+ font-weight: 600;
+}
+
+
+.logo__footer{
+    max-width: 140px;
+}
+.img__prava{
+    text-align: center;
+}
+.prava{
+    font-size: 15px;
+    color: #494949;
+    font-weight: 600;
+}
+.prava span{
+    font-size: 17px;
+
+}
+
+.nav__footer,.contact__footer,.telefon__footer{
+    margin-left: 100px;
+}
+
+.pin__footer{
+    border: #494949 2px solid;
+    border-radius: 100%;
+    max-width: 37px;
+}
+
+/*Начало media!!!*/ 
+
+@media (max-width:1600px){
+    .logo__footer{
+        max-width: 110px;
+    }
+    .telefon__footer{
+        line-height: 23px;
+    }
+    .nav__footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        line-height: 32px;
+    }
+    
+    .contact__footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        line-height: 32px;
+    }
+    .telefon{
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+    .pin__footer{
+        max-width: 34px;
+    }
+    .school__telefon,.school__natwork{
+        font-size: 15px;
+    }
+    .prava{
+        font-size: 14px;
+        color: #494949;
+        font-weight: 600;
+    }
+    .prava span{
+        font-size: 16px;
+    
+    }
+}
+
+@media (max-width:1470px){
+    .nav__footer,.contact__footer,.telefon__footer{
+        margin-left: 45px;
+    }
+}
+
+
+@media (max-width:1320px){
+    .nav__footer,.contact__footer,.telefon__footer{
+        margin-left: 35px;
+    }
+}
+
+
+@media (max-width:1290px){
+    .footer__container{
+        flex-direction: column;  
+    }
+    .nav__footer,.contact__footer,.telefon__footer{
+        margin: 0px 20px;
+        border-bottom: #494949 1px solid;
+    }
+    .nav__footer{
+        border-top: #494949 1px solid;
+    }
+
+
+    .logo__footer{
+        max-width: 210px;
+    }
+    .telefon__footer{
+        line-height: 25px;
+    }
+    .nav__footer{
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .navigation{
+        font-size: 28px;
+    }
+    .contact{
+        font-size: 28px;
+    }
+    .contact__footer{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .telefon{
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    .telefon__footer{
+        line-height: 35px;
+    }
+    .pin__footer{
+        max-width: 54px;
+    }
+    .school__telefon,.school__natwork{
+        font-size: 18px;
+    }
+    .prava{
+        font-size: 18px;
+    }
+    .prava span{
+        font-size: 20px;
+    
+    }
+}
+
+
+@media (max-width:1000px){
+
+    .logo__footer{
+        max-width: 210px;
+    }
+    .telefon__footer{
+        line-height: 22px;
+    }
+    .nav__footer{
+        font-size: 19px;
+        line-height: 35px;
+    }
+    .navigation{
+        font-size: 25px;
+    }
+    .contact{
+        font-size: 25px;
+    }
+    .contact__footer{
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .telefon{
+        font-size: 15px;
+
+    }
+    .telefon__footer{
+        line-height: 35px;
+    }
+    .pin__footer{
+        max-width: 50px;
+    }
+    .school__telefon,.school__natwork{
+        font-size: 15px;
+    }
+    .prava{
+        font-size: 18px;
+    }
+    .prava span{
+        font-size: 20px;
+    
+    }
+}
+
+@media (max-width:850px){
+
+    .logo__footer{
+        max-width: 170px;
+    }
+    .telefon__footer{
+        line-height: 22px;
+    }
+    .nav__footer{
+        font-size: 14px;
+        line-height: 35px;
+    }
+    .navigation{
+        font-size: 18px;
+    }
+    .contact{
+        font-size: 18px;
+    }
+    .contact__footer{
+        font-size: 13px;
+        line-height: 32px;
+    }
+    .telefon{
+        font-size: 12px;
+
+    }
+    .pin__footer{
+        max-width: 40px;
+    }
+    .school__telefon,.school__natwork{
+        font-size: 13px;
+    }
+    .prava{
+        font-size: 17px;
+    }
+    .prava span{
+        font-size: 19px;
+    }
+}
+
+@media (max-width:700px){
+
+    .logo__footer{
+        max-width: 130px;
+    }
+    .telefon__footer{
+        line-height: 22px;
+    }
+    .nav__footer{
+        font-size: 12px;
+        line-height: 32px;
+    }
+    .navigation{
+        font-size: 14px;
+    }
+    .contact{
+        font-size: 14px;
+    }
+    .contact__footer{
+        font-size: 10px;
+        line-height: 30px;
+    }
+    .telefon{
+        font-size: 10px;
+    }
+    .pin__footer{
+        max-width: 30px;
+    }
+    .school__telefon,.school__natwork{
+        font-size: 13px;
+    }
+    .prava{
+        font-size: 17px;
+    }
+    .prava span{
+        font-size: 19px;
+    }
+}
+
+
+@media (max-width:440px){
+    .prava{
+        font-size: 12px;
+    }
+    .prava span{
+        font-size: 13px;
+    
+    }
+}
+
 
  @media (max-height:1080px){
     /*Начало grid!!!*/
