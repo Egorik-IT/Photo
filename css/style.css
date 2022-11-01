@@ -353,6 +353,7 @@ body{
 }
 
 .nav__footer,.contact__footer,.telefon__footer{
+    border-bottom:#494949 1px solid ;
     margin-left: 100px;
 }
 
