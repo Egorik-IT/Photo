@@ -12,11 +12,12 @@ button.onclick = function setScrollToOptions() {
 }
 
 function nunu(){
-    document.querySelector(".scroll__spisok").style.display = "flex"
+    document.querySelector(".scroll__spisok").style.top = "0";
+    document.querySelector(".close").style.top = "0";
     document.querySelector(".osnova").style.overflow = "hidden";
-}   
-
+}
 function closew(){
-    document.querySelector(".scroll__spisok").style.display = "none"
+    document.querySelector(".scroll__spisok").style.top = "-1000px";
+    document.querySelector(".close").style.top = "-500px";
     document.querySelector(".osnova").style.overflow = "scroll";
 }
