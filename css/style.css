@@ -277,6 +277,7 @@ body{
     transition: 0.4s;
     flex-direction: column;
     align-items:end;
+    overflow-x: scroll;
 }
 
 
@@ -299,20 +300,7 @@ body{
     /*Конец grid!!!*/
 }
 
-@media (max-height:870px){
-    /*Начало grid!!!*/
-    .stores,.meals,.newss,.schools{
-        font-size: 30px;
-    }
 
-    .close{
-        font-size: 50px;
-    }
-    .signatures{
-        margin: 40px 0px;
-    }
-    /*Конец grid!!!*/
-}
 
 
 
