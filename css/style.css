@@ -586,7 +586,7 @@ body{
         font-size: 10px;
     }
     .pin__footer{
-        max-width: 30px;
+        max-width: 38px;
     }
     .school__telefon,.school__natwork{
         font-size: 13px;
@@ -609,6 +609,9 @@ body{
     
     }
 }
+
+
+
 
 
  @media (max-height:1080px){
