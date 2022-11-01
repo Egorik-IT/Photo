@@ -246,10 +246,10 @@ body{
 
 .close{
     position: relative;
-    top: -500px;
+    top: -700px;
     font-size: 80px;
     margin-bottom: 30px;
-    transition: 1.4s;
+    transition: 1.7s;
     animation:  infinite alternate ;
 }
 .close:hover{
