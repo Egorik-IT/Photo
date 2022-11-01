@@ -293,6 +293,17 @@ body{
     align-items: center;
 }
 
+.footer__boys__girls{
+    margin-top: 10px;
+    color: #f1f1f1;
+    background: #0a0a0a;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
 .footer__container{
     display: flex;
     flex-direction: row;
