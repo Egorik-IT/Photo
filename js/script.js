@@ -17,7 +17,7 @@ function nunu(){
     document.querySelector(".osnova").style.overflow = "hidden";
 }
 function closew(){
-    document.querySelector(".scroll__spisok").style.top = "-1000px";
-    document.querySelector(".close").style.top = "-500px";
+    document.querySelector(".scroll__spisok").style.top = "-3000px";
+    document.querySelector(".close").style.top = "-700px";
     document.querySelector(".osnova").style.overflow = "scroll";
 }
