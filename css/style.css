@@ -234,7 +234,7 @@ body{
 }
 
 
-.common,.common__boys,.common__girls,.klassnay{
+.common,.common__boys,.common__girls,.klassnays{
     max-width: 100%;
     margin: 0 auto;
 }
@@ -838,7 +838,12 @@ body{
                     }
                     /*Конец grid!!!*/
                         }
-
+                        @media (max-width: 740px){
+                                    .klassnay{
+                                        font-size: 40px;
+                                    }
+                                }
+                        
                         @media (max-width: 590px){
                             /*Начало шапки!!!*/
                 
@@ -958,6 +963,12 @@ body{
                                                             }
                                                             /*Конец grid!!!*/ 
                                                                 }
+                                                                
+                                                                @media (max-width: 410px){
+                                                                    .klassnay{
+                                                                        font-size: 20px;
+                                                                    }
+                                                                }
 
      /*Конец media!!!*/
 
@@ -1015,6 +1026,9 @@ body{
 
 @media (max-width:490px) {    
     .container__intro {font-size: 30px;}    
+}
+@media (max-width: 400px){
+    .container__intro{font-size: 20px;}
 }
 
 /*--Конец--Светящегося--текста---не--я--его--сделал-- :( */
@@ -1305,7 +1319,7 @@ text-align: center;
         }
 
 @media (max-width: 390px){
-    .general,.girls,.boys,.klassnay{
+    .general,.girls,.boys{
         font-size: 30px;
         padding: 20px;
     }
