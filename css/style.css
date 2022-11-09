@@ -852,7 +852,7 @@ body{
                             /*Конец шапки!!!*/
                             
                             /*Начало grid!!!*/
-                            .general,.girls,.boys{
+                            .general,.girls,.boys,.klassnay{
                                 font-size: 50px;
                                 max-width: max-content;
                                 padding: 26px;
@@ -1321,7 +1321,7 @@ text-align: center;
         }
 
 @media (max-width: 390px){
-    .general,.girls,.boys{
+    .general,.girls,.boys,.klassnay{
         font-size: 30px;
         padding: 20px;
     }
