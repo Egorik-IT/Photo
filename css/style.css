@@ -173,7 +173,7 @@ body{
     padding-bottom: 10px;
     grid-gap: 10px;
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns:1fr ;
 
 }
 
@@ -852,7 +852,7 @@ body{
                             /*Конец шапки!!!*/
                             
                             /*Начало grid!!!*/
-                            .general,.girls,.boys,.klassnay{
+                            .general,.girls,.boys{
                                 font-size: 50px;
                                 max-width: max-content;
                                 padding: 26px;
@@ -1161,22 +1161,6 @@ text-align: center;
 .scroll__arrow{
  max-width: 80px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
