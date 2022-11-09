@@ -143,15 +143,17 @@ body{
  /*Конец шапки!!!*/ 
 
 
-                                          
 
-   
 
 .intro {
     margin-bottom: 40px;
 }
 
 .grid {
+    border: #b1b1b1 2px dashed;
+}
+
+.grid__klassnay {
     border: #b1b1b1 2px dashed;
 }
 
@@ -162,6 +164,16 @@ body{
     grid-gap: 10px;
     display: grid;
     grid-template-columns:1fr 1fr 1fr ;
+
+}
+
+.grid__body__klassnay {
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 10px;
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
 
 }
 
@@ -195,6 +207,12 @@ body{
     border: #b1b1b1 2px dashed;
 }
 
+.grid__lang__klassnay{
+    padding: 10px;
+    text-align: center;
+    border: #b1b1b1 2px dashed;
+}
+
 .grid__lang__egor{
     padding: 10px;
     text-align: center;
@@ -216,12 +234,12 @@ body{
 }
 
 
-.common,.common__boys,.common__girls{
+.common,.common__boys,.common__girls,.klassnay{
     max-width: 100%;
     margin: 0 auto;
 }
 
-.general,.girls,.boys{
+.general,.girls,.boys,.klassnay{
     text-align: center;
     margin: 15px auto 15px auto;
     font-size: 70px;
@@ -379,6 +397,7 @@ body{
     border-radius: 100%;
     max-width: 37px;
     margin-right: 10px;
+    margin-bottom: 6px;
 }
 
 /*Начало media!!!*/ 
@@ -675,6 +694,9 @@ body{
 
     @media (max-width: 1290px){
         /*Начало grid!!!*/
+        .grid__body__klassnay {
+            grid-template-columns:1fr;
+        }
         .grid__body {
             grid-template-columns:1fr 1fr;
         }
@@ -1060,6 +1082,10 @@ body{
 .grid__lang__photo__girls{
     border-radius: 12%;
     border: pink 2px dashed;
+}
+
+.text__none{
+text-align: center;
 }
 
 .grid__lang__photo__egor__veselov{
